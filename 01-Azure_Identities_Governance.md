@@ -58,9 +58,11 @@
 
 
 ------------------------------------------------------------------------------
-## ⭐ What is Azure? (2025)
+## ⭐ What is Azure
 ------------------------------------------------------------------------------
-Microsoft Azure is a comprehensive cloud computing platform that provides a constantly growing collection of services to help individuals, developers, and enterprises build, deploy, and manage applications at global scale.
+* Microsoft Azure is a comprehensive cloud computing platform that provides a constantly growing collection of services to help individuals, developers, and enterprises build, deploy, and manage applications at global scale.
+
+* Microsoft Azure is a cloud computing platform that offers services and products to help users build, run, and manage applications:
 
 
 * Azure gives you the flexibility to use your preferred:
