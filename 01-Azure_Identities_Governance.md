@@ -353,37 +353,35 @@ Workbooks
 
 Operational governance ensures workloads run reliably and according to standards.
 
-===========================================================================================
+------------------------------------------------------------------------------
 # Azure Subscription?
+------------------------------------------------------------------------------
+* An Azure subscription is a logical container that groups resources together for billing and management in Microsoft Azure. It is linked to an Azure account.
 
-An Azure subscription is a logical container that groups resources together for billing and management in Microsoft Azure and is linked to an Azure account.
-
-An Azure Subscription is a key component in Microsoft Azure's cloud service platform. It is a logical container that is used to manage resources and services in the Azure cloud. Here is a more detailed breakdown based on the points you have mentioned:
+* An Azure subscription is a key component of Microsoft Azure. It is a logical container used to manage resources and services in the Azure cloud. Below is a clearer breakdown of the points you mentioned:
 
 
 **Logical Unit of Azure Services:**
-
-An Azure subscription acts as a container that holds various Azure resources such as virtual machines (VMs), databases, networking resources, and storage accounts. Each subscription is linked to an Azure account, and the resources within that subscription are governed and managed by that account.
+* An Azure subscription acts as a container that holds Azure resources such as virtual machines (VMs), databases, networking resources, and storage accounts. Each subscription is linked to an Azure account, and the resources within it are governed and managed by that account.
 
 
 **Billing:** 
-
-Azure services are billed on a per-subscription basis. This means that all resources deployed under a specific subscription are grouped together for billing purposes. The subscription defines the scope of the costs, and the billing can be tracked based on usage under that subscription.
+* Azure services are billed on a per-subscription basis. All resources deployed under a subscription are grouped together for billing. The subscription defines the billing scope, and costs can be tracked based on usage within that subscription.
 
 
 **Access to Azure Services:** 
-
-An Azure subscription gives users access to Azure’s cloud services and the management portal (Azure Portal). This portal allows users to manage and deploy various services, monitor usage, and control resource allocation.
+* An Azure subscription provides access to Azure’s cloud services and the Azure Portal. Users can deploy services, manage resources, monitor usage, and control resource allocation.
 
 
 **Container for Services:** 
-
-An Azure subscription is often described as a billing container for the services that are deployed within it. This includes IaaS (Infrastructure as a Service), PaaS (Platform as a Service), SaaS (Software as a Service) offerings, and other cloud-based resources such as virtual machines, web applications, and storage accounts.
+* An Azure subscription is often described as a billing and management container for services. This includes IaaS, PaaS, SaaS, and other Azure resources such as virtual machines, web apps, and storage accounts.
 
 
 **Relationship with Azure Active Directory (Azure AD):** 
+* Azure subscriptions have a trusted relationship with Azure Active Directory. Azure AD provides identity and access management for users, services, and devices. Users sign in to the Azure Portal using Azure AD credentials, and their roles within the subscription are defined through Azure AD.
 
-Azure subscriptions have a trusted relationship with Azure Active Directory (Azure AD). Azure AD is a cloud-based identity and access management service, which provides authentication and authorization for users, services, and devices. Users can sign in to the Azure Portal using their Azure AD credentials, and their roles within the subscription are defined by Azure AD.
+
+
 
 
 **Role-based Access Control (RBAC):** 
