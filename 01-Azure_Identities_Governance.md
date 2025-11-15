@@ -1,25 +1,25 @@
-# ----------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------
 # AZURE A LEARNING GUIDE
-# ----------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------
 
-# ----------------------------------------------------------------------------------------------
-### Why Cloud Computing
-# ----------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+## Why Cloud Computing
+------------------------------------------------------------------------------
 * A young developer had an idea to create a new social media website. While confident about building the site itself, he was worried about managing the underlying infrastructure. His concerns included handling secure storage, maintaining high-performance servers for reliable user experience, and ensuring strong security measures. Hiring skilled IT professionals and making significant capital investments in hardware posed big challenges. On day one, he faced large upfront costs, and even if the platform succeeded, scaling resources quickly would be difficult.
 
-Seeking advice, the developer spoke with Angela, who recommended considering a cloud-based solution. She explained that cloud computing offers significant benefits over traditional on-premises infrastructure:
+* Seeking advice, the developer spoke with Angela, who recommended considering a cloud-based solution. She explained that cloud computing offers significant benefits over traditional on-premises infrastructure:
 
-Lower Upfront Costs: Cloud platforms like Azure eliminate the need for heavy upfront investments in hardware and data centers by offering a "pay-as-you-go" pricing model.
+* **Lower Upfront Costs:** Cloud platforms like Azure eliminate the need for heavy upfront investments in hardware and data centers by offering a "pay-as-you-go" pricing model.
 
-Effortless Scalability: Resources can be scaled up or down instantly to meet user demand, without purchasing extra servers.
+* **Effortless Scalability:** Resources can be scaled up or down instantly to meet user demand, without purchasing extra servers.
 
-Enhanced Security: Cloud providers maintain industry-leading security standards and compliance certifications, providing automated monitoring, data encryption, and disaster recovery features.
+* **Enhanced Security:** Cloud providers maintain industry-leading security standards and compliance certifications, providing automated monitoring, data encryption, and disaster recovery features.
 
-Global Accessibility: Applications and data can be accessed from anywhere, supporting remote and distributed teams.
+* **Global Accessibility:** Applications and data can be accessed from anywhere, supporting remote and distributed teams.
 
-Reduced Maintenance: Azure and other cloud providers handle hardware updates, security patches, and infrastructure maintenance, allowing developers to focus on their business.
+* **Reduced Maintenance:** Azure and other cloud providers handle hardware updates, security patches, and infrastructure maintenance, allowing developers to focus on their business.
 
-By choosing Azure or another reputable cloud platform, startups and developers can launch and grow applications rapidly, minimize operational costs, and benefit from world-class reliability, security, and innovation.
+* By choosing Azure or another reputable cloud platform, startups and developers can launch and grow applications rapidly, minimize operational costs, and benefit from world-class reliability, security, and innovation.
 
 
 | Feature         | On-Premises                           | Cloud Computing                            |
@@ -57,17 +57,13 @@ By choosing Azure or another reputable cloud platform, startups and developers c
 | **FaaS / Serverless** | Run code/functions without managing servers | AWS Lambda, Azure Functions          |
 
 
-
-
-
-# ----------------------------------------------------------------------------------------------
-⭐ What is Azure? (2025)
-# ----------------------------------------------------------------------------------------------
-* Microsoft Azure is a comprehensive cloud computing platform that provides a constantly growing collection of services to help individuals, developers, and enterprises build, deploy, and manage applications at global scale.
+------------------------------------------------------------------------------
+## ⭐ What is Azure? (2025)
+------------------------------------------------------------------------------
+Microsoft Azure is a comprehensive cloud computing platform that provides a constantly growing collection of services to help individuals, developers, and enterprises build, deploy, and manage applications at global scale.
 
 
 * Azure gives you the flexibility to use your preferred:
-
 * Programming languages
 * Frameworks
 * Databases
@@ -76,9 +72,9 @@ By choosing Azure or another reputable cloud platform, startups and developers c
 
 Whether you want to host a website, run AI models, store big data, manage virtual machines, or create enterprise-grade solutions, Azure provides managed services for each scenario.
 
-# ----------------------------------------------------------------------------------------------
-### 🌍 What Azure Really Is
-# ----------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+## 🌍 What Azure Really Is
+------------------------------------------------------------------------------
 * Azure is essentially a network of Microsoft-managed data centers distributed across the globe.
 Instead of purchasing and maintaining your own servers, cooling systems, networking hardware, or data center buildings, you use Azure’s infrastructure and pay only for what you consume.
 
@@ -94,9 +90,9 @@ Azure provides:
 * Identity & Security (Azure AD / Entra ID)
 * Integration & IoT services
 
-# ----------------------------------------------------------------------------------------------
-### 💡 Why Organizations Use Azure
-# ----------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+## 💡 Why Organizations Use Azure
+------------------------------------------------------------------------------
 Azure helps businesses meet key goals such as:
 
 * Reducing cost — no need for physical infrastructure
@@ -108,9 +104,9 @@ Azure helps businesses meet key goals such as:
 
 Azure supports solutions ranging from small startup apps to enterprise-level mission-critical workloads.
 
-# ----------------------------------------------------------------------------------------------
-#### Services and Products
-# ----------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+## Services and Products
+------------------------------------------------------------------------------
 Microsoft Azure offers 200+ cloud services across multiple categories, enabling organizations to build, deploy, secure, and scale applications of any size.
 Key service areas include:
 
@@ -125,9 +121,9 @@ Key service areas include:
 
 Azure continues to expand with new AI-driven and cloud-native offerings every year.
 
-# ----------------------------------------------------------------------------------------------
-#### 📌 Solutions
-# ----------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+## 📌 Solutions
+------------------------------------------------------------------------------
 Azure provides industry-specific, ready-to-use cloud solutions tailored for:
 
 * Retail – Real-time inventory, personalization, smart checkout
@@ -139,9 +135,9 @@ Azure provides industry-specific, ready-to-use cloud solutions tailored for:
 
 These solutions help organizations accelerate innovation and modernize operations.
 
-# ----------------------------------------------------------------------------------------------
-#### 📌 Flexibility
-# ----------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+## 📌 Flexibility
+------------------------------------------------------------------------------
 Azure supports an open, flexible environment:
 
 * Use any programming language: C#, Java, Python, Node.js, Go, PHP
@@ -151,9 +147,9 @@ Azure supports an open, flexible environment:
 
 This flexibility helps teams build solutions using the tools they already know.
 
-# ----------------------------------------------------------------------------------------------
-#### Access
-# ----------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+## Access
+------------------------------------------------------------------------------
 Azure provides access to industry-leading cloud technologies:
 
 **AI**
@@ -166,9 +162,9 @@ Azure provides access to industry-leading cloud technologies:
 * Global regions
 * High availability (HA), zone redundancy
 
-# ----------------------------------------------------------------------------------------------
-#### 📌 Access & Management
-# ----------------------------------------------------------------------------------------------
+# ------------------------------------------------------------------------------
+## 📌 Access & Management
+# ------------------------------------------------------------------------------
 Azure provides multiple ways to access and manage cloud resources:
 
 * Azure Portal – Web-based UI for managing all resources
@@ -178,77 +174,53 @@ Azure provides multiple ways to access and manage cloud resources:
 * Resource Manager (ARM) – Template-based infrastructure deployment
 * Bicep – Modern IaC language for Azure
 
-# ----------------------------------------------------------------------------------------------
-#### 📌 Capabilities
-# ----------------------------------------------------------------------------------------------
+# ------------------------------------------------------------------------------
+## 📌 Capabilities
+# ------------------------------------------------------------------------------
 Azure delivers a broad range of cloud models:
 
-1. Infrastructure as a Service (IaaS)
+**1. Infrastructure as a Service (IaaS)**
 * You manage OS, apps, and data; Azure manages hardware.
 * Example: Virtual Machines, Virtual Networks.
 
-2. Platform as a Service (PaaS)
+**2. Platform as a Service (PaaS)**
 * Azure handles OS, runtime, scaling; you deploy code.
 * Example: App Service, AKS, SQL Database.
 
-3. Software as a Service (SaaS)
+**3. Software as a Service (SaaS)**
 * Ready-to-use software delivered over the internet.
 * Example: Microsoft 365, Dynamics 365, Power BI.
 
 Azure provides these capabilities across global data centers with built-in availability, security, and compliance.
 
-
-
-
-
-
-
-
-
-
-
-
-===========================================================================================
-
+------------------------------------------------------------------------------
 ## Azure is Responsible for:
-
-
+------------------------------------------------------------------------------
 In an Azure cloud environment, the responsibilities are divided between Microsoft (Azure) and the customer, following a shared responsibility model. Based on your statement, Azure is responsible for the following aspects:
-
 
 **1. Availability of the Platform (Datacenter, Connectivity, Server, Power, Cooling):**
 
-
 Azure is responsible for ensuring that the underlying infrastructure, including the physical data centers, power supply, network connectivity, servers, and cooling systems, are available and maintained. This includes ensuring the physical hardware and its supporting systems (such as power and cooling) are operational and resilient.
 
-
 **2.	Data Availability:**
-
 
 Azure is responsible for the availability of services and platforms, ensuring the infrastructure is designed for high availability, redundancy, and disaster recovery. However, customers must implement their own strategies for data availability, such as backups, replication, and failover.
 
 
 **3.	Maintenance of the Platform (Datacenter, Connectivity, Server, Storage):**
 
-
 Azure is responsible for the regular maintenance of the underlying platform, which includes updating and patching hardware, software, and infrastructure. This also includes maintaining servers, storage, network, and ensuring that the physical environment remains up-to-date and operational.
-
 
 **4.	Physical Security:**
 
-
 Azure ensures the physical security of data centres, including access control, surveillance, and protection from physical threats. This involves securing the hardware, buildings, and network connections from unauthorized physical access and ensuring that the environment is resilient to physical attacks or failures.
 
-
 **5.	Availability of the Service (VM, Storage, Network):**
-
 
 Azure ensures the availability of the services it provides, such as virtual machines (VMs), storage, and networking. This means managing the infrastructure to ensure it is available for the customer, including handling the orchestration, scaling, and maintenance of these services.
 
 
-
 **Shared Responsibility Model:**
-
 
 *Customer's Responsibility:*
 The customer is responsible for things like configuring services correctly, managing the applications they deploy, maintaining data security, and setting up proper access controls.
@@ -260,20 +232,124 @@ Azure handles the infrastructure level, ensuring the platform and its services (
 ![alt text](https://github.com/acmarpu/images/blob/main/Azure/image1.png)
 
 
-
-===========================================================================================
+------------------------------------------------------------------------------
 # Governance
+------------------------------------------------------------------------------
+* Azure Governance is a foundational part of Azure Management that helps organizations plan, control, secure, and monitor how cloud resources are used. It ensures that Azure environments remain compliant, secure, cost-optimized, and aligned with business and regulatory requirements.
 
+* Governance provides the mechanisms, processes, and tools needed to maintain control over:
 
-* Governance in Azure is one aspect of Azure Management
-* Azure governance is a framework that helps organizations manage and control their Azure resources, policies, and access.
-*Governance provides mechanisms and processes to maintain control over your applications and resources in Azure. 
-* It involves planning your initiatives and setting strategic priorities. Governance in Azure is primarily implemented with two services. 
-* Azure Policy allows you to create, assign, and manage policy definitions to enforce rules for your resources. This feature keeps those resources in compliance with your corporate standards. 
-* Azure Cost Management allows you to track cloud usage and expenditures for your Azure resources and other cloud providers.
+* Resource deployment
+* Policies & standards
+* Costs
+* Identity & access
+* Security posture
+* Organizational structure
+
+Azure Governance is implemented through several core services and features.
 
 ![alt text](https://github.com/acmarpu/images/blob/main/Azure/image2.png)
 
+------------------------------------------------------------------------------
+## 📌 Key Components of Azure Governance
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+## 1. Azure Policy
+------------------------------------------------------------------------------
+
+* Azure Policy enforces rules and standards across your Azure environment. It ensures that resources remain compliant with:
+
+* Corporate standards
+* Security requirements
+* Naming conventions
+* Allowed locations
+* SKU restrictions
+* Tagging policies
+* Regulatory frameworks (HIPAA, ISO, CIS, etc.)
+* Azure Policy uses:
+* Policy Definitions
+* Initiatives (Policy Sets)
+* Compliance dashboards
+
+This ensures consistent, automated enforcement of rules across all resources.
+
+------------------------------------------------------------------------------
+## 2. Azure Cost Management
+------------------------------------------------------------------------------
+* Tracks cloud usage and spending.
+* Provides budgets, alerts, and cost-optimization insights.
+* Works across Azure and other clouds.
+
+------------------------------------------------------------------------------
+## 3. RBAC (Role-Based Access Control)
+------------------------------------------------------------------------------
+* Controls who can access what.
+* Ensures least-privilege access.
+
+------------------------------------------------------------------------------
+## 4. Azure Resource Graph
+------------------------------------------------------------------------------
+Resource Graph allows organizations to query, audit, and analyze all resources at scale.
+It provides visibility across:
+
+* Subscriptions
+* Resource groups
+* Regions
+* Policies
+* Tags
+
+This improves governance observability and compliance checks.
+
+------------------------------------------------------------------------------
+## 5. Azure Management Groups
+------------------------------------------------------------------------------
+Management Groups allow you to structure subscriptions hierarchically.
+They help enforce:
+
+* Policies
+* RBAC
+* Compliance
+* Cost controls
+
+------------------------------------------------------------------------------
+## 6. Azure Blueprints (Now Deprecated & Migrated into Template Specs + Policy)
+------------------------------------------------------------------------------
+Older governance documents may reference Azure Blueprints, which is now retired.
+The modern governance approach uses:
+
+* Azure Policy
+* ARM Templates / Bicep
+* Template Specs
+* DevOps pipelines
+
+This ensures automated, repeatable environment deployments.
+
+------------------------------------------------------------------------------
+## 7. Microsoft Defender for Cloud (Security Governance)
+------------------------------------------------------------------------------
+Defender for Cloud provides:
+
+* Security posture management
+* Recommendations
+* Threat protection
+* Regulatory compliance mapping
+
+It is now a core part of governance for security-focused organizations.
+
+------------------------------------------------------------------------------
+## 8. Azure Monitor (Operational Governance)
+------------------------------------------------------------------------------
+
+Azure Monitor provides insights into:
+
+* Performance
+* Logs
+* Metrics
+* Alerts
+
+Workbooks
+
+Operational governance ensures workloads run reliably and according to standards.
 
 ===========================================================================================
 # Azure Subscription?
